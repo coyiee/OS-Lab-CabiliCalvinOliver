@@ -48,10 +48,9 @@ This simulated the behavior of the `exec()` function in Linux.
 ---
 
 ## Task D – Managing in PowerShell
-In this task, I used PowerShell to check the running child processes with the command:  
-```powershell
-Get-Process child_echo
-I then terminated one process using Stop-Process -Id <PID>.
+In this task, I used PowerShell to display the running child processes with the command `Get-Process child_echo`.  
+After identifying the processes, I terminated one using `Stop-Process -Id <PID>`.  
+This demonstrated the difference between a normal program termination and a forced termination.  
 
 **Screenshot:**  
 ![Task D](screenshots/Task - D.png)
